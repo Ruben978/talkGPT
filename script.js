@@ -19,7 +19,7 @@ const recordAudio = () =>
       const formData = new FormData();
       formData.append('audio', audioBlob, 'audio.mp3');
 
-      const response = await fetch('http://127.0.0.1:5000/upload-audio', {
+      const response = await fetch('https://button-shade-vat-finals.trycloudflare.com/upload-audio', {
         method: 'POST',
         body: formData
       });
