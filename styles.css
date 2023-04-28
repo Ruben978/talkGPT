@@ -1,0 +1,26 @@
+/*Audio Recorder - Style*/
+
+body {
+    background-color: #EAEAEA;
+}
+
+#heading {
+    font-family: Verdana;
+    font-size: 35px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 3px;
+    background-color: transparent;
+    font-family: Verdana;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid grey;
+    background-color: grey;
+    color: #EAEAEA;
+}
